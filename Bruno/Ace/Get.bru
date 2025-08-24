@@ -1,0 +1,27 @@
+meta {
+  name: Get
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/auth/login
+  body: json
+  auth: inherit
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkyZTg4M2NjNDY2M2E2MzMyYWRhNmJjMWU0N2YzZmY1ZTRjOGI1ZDciLCJ0eXAiOiJKV1QifQ.eyJuYW1lIjoiVGFuZyBLZW4gWWkiLCJwaWN0dXJlIjoiaHR0cHM6Ly9hdmF0YXJzLmdpdGh1YnVzZXJjb250ZW50LmNvbS91LzczNTg4NDY0P3Y9NCIsImlzcyI6Imh0dHBzOi8vc2VjdXJldG9rZW4uZ29vZ2xlLmNvbS9uZWV0Y29kZS1kZDE3MCIsImF1ZCI6Im5lZXRjb2RlLWRkMTcwIiwiYXV0aF90aW1lIjoxNzUwNjkzNTgzLCJ1c2VyX2lkIjoiWnlqVExpOXQ2YVkyQnRpQ2x5aFp2WXFtQ0FWMiIsInN1YiI6Ilp5alRMaTl0NmFZMkJ0aUNseWhadllxbUNBVjIiLCJpYXQiOjE3NTU5NTg1MjksImV4cCI6MTc1NTk2MjEyOSwiZW1haWwiOiJ0YW5na2VueWkyMDAxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJnaXRodWIuY29tIjpbIjczNTg4NDY0Il0sImVtYWlsIjpbInRhbmdrZW55aTIwMDFAZ21haWwuY29tIl19LCJzaWduX2luX3Byb3ZpZGVyIjoiZ2l0aHViLmNvbSJ9fQ.chiLlQCUi6JPDQ9UhrmLLRqcm_nsNnsgDL9XrgowHBPKDNMLxvClxZemPK_iuTyxckZqLGmKiHqNCA03KYmxCURhFiaOOPxPf6hXGCab9KL_1Z9aH3IPj9CGkU9MAATfNiokH9S_0e3LW3lTi843Pr7e0JgGYpokacu-7UhFoAZcAAqzh0Xak6rV4I7qiAdPcSaQpVgkxgVQ09oSJVFFhD1ex0u6ZXyyFqvV6q0RknNLDxmBpYyxnCKRyW-kFLmmOnVXnfSMwdgNwiKiy4PcuOdrcaPKYfMu-je5XhKU3g42y1ssJdZqgY3s51wk7XLCaV6ZdqIqihG0GTk9i7QPnw
+  Referer: https://neetcode.io/
+}
+
+body:json {
+  {
+    "email": "t@gmail.com",
+    "password": "Kenyi123"
+  }
+}
+
+settings {
+  encodeUrl: true
+}
