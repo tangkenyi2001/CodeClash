@@ -1,7 +1,0 @@
-{
-  "/leetcode/page": "app/leetcode/page.js",
-  "/profile/page": "app/profile/page.js",
-  "/leaderboard/page": "app/leaderboard/page.js",
-  "/friends/page": "app/friends/page.js",
-  "/tournaments/page": "app/tournaments/page.js"
-}
