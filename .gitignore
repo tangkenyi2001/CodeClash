@@ -10,6 +10,7 @@ client/node_modules/
 .env.*.local
 
 # Build outputs
+client/.next
 .next/
 dist/
 build/
